@@ -1,0 +1,45 @@
+{% load static %}
+{%block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+    <figure class="img-1">
+        <div class="btn">
+            <img src="{% static 'images/image02.jpg' %}" alt="image not found " width="400px" height="300px">
+            <p class="arun">its raining its pouring |2-14yrs</p>
+            <p class="title">explore collection</p>
+            <p class="shop now">shop now </p>
+        </div>
+        <!-- <div class="div-1">
+ <p class="img-1-text">its raining its pouring |2-14yrs</p>
+<p >shop now</p>
+</div> -->
+
+
+        <div class="div-2">
+
+            <img src="{% static 'images/image03.jpg' %}" alt="image not found " width="400px" height="300px">
+            <p class="img-1-text">collection featuring disney & marvel |up-to-14yrs </p>
+            <p>shop now </p>
+        </div>
+
+
+
+        <div class="div-3">
+            <img src="{% static 'images/image01.jpg' %}" alt="image not found " width="400px" height="300px">
+            <p class="img-3-text">sibling style spectacular up-to-14yers|</p>
+            <p class="so"> shop now </p>
+        </div>
+    </figure>
+</body>
+
+</html>
+{% endblock %}
